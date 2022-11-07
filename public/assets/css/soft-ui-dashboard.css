@@ -26606,7 +26606,59 @@ pre[class*="language-"] {
     overflow: auto !important;
   }
 }
-body{
-  overflow-y:hidden;
- }
+
+.form{
+display: flex;
+justify-content: space-evenly;
+}
+
+/* .form-child{
+width:1.3em;
+} */
+
+.form-child{
+margin-right: 0.8em;
+}
+
+.form-child-input:focus{
+  outline:none;
+}
+
+.nav-display{
+  display: flex;
+  justify-content: space-between;
+  background-color: pink;
+  display:flex;
+  justify-content: space-evenly;
+}
+
+.online{
+align-self:flex-end;
+}
+
+.container-for-nav-visibles{
+  display: flex;
+  justify-content: flex-end;
+}
+.tag{
+font-size: 1.4em;
+}
+
+.house-info{
+background-color: #DBDCDE;
+border-radius: 0.5em;
+padding: 0;
+margin-bottom: 1.4em;
+}
+
+.image-col img{
+  border-top-right-radius: 0.5em;
+  border-bottom-right-radius:0.5em;
+}
+
+.house-info-col{
+  display: flex;
+  flex-direction: column;
+}
+
 /*# sourceMappingURL=dashboard-free.css.map */

@@ -26605,4 +26605,15 @@ pre[class*="language-"] {
   }
 }
 
+.form{
+display:flex;
+justify-content: space-evenly;
+}
+
+select{
+width: 90px;
+margin-right:20px;
+border: 4px solid red;
+}
+
 /*# sourceMappingURL=dashboard-free.css.map */
